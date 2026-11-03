@@ -1,0 +1,17 @@
+✔ [2/8] Built BG9.Defs (334ms)
+✔ [3/8] Built BG9.Queue (315ms)
+✔ [4/8] Built BG9.Codes (617ms)
+✔ [5/8] Built BG9.NoCode3 (33s)
+ℹ [6/8] Built BG9.Main (63s)
+info: BG9/Main.lean:54:0: "01230140125234301406515272343840601651752738438026016517538328024601653158248403760165182437305764016232571784036462125781734804625612578014847626521583487061245273850138424670513834876401203587814720254861731824260731381425067371348056472318068402751468307605724538604762758014367807501382375805212348357612148357604138572045368702456860504268510432871412637153028656237080615327048125634380276563087514678014157470154531675301264708204174805817451864731684763808765028458263458631251715267153728637218310534054"
+info: BG9/Main.lean:56:0: 'BG.code9_isBeckettGray' depends on axioms: [propext]
+info: BG9/Main.lean:57:0: 'BG.code9_visits_all' depends on axioms: [propext, Quot.sound]
+info: BG9/Main.lean:58:0: 'BG.code9_isBeckettGray_native' depends on axioms: [propext, BG.code9_isBeckettGray_native._native.native_decide.ax_1_1]
+info: BG9/Main.lean:59:0: 'BG.code5_isBeckettGray' depends on axioms: [propext]
+info: BG9/Main.lean:60:0: 'BG.code9_swapped_not' depends on axioms: [propext]
+info: BG9/Main.lean:61:0: 'BG.code9_swapped_repeats' depends on axioms: [propext]
+info: BG9/Main.lean:62:0: 'BG.code9_swapped_not_fifo' depends on axioms: [propext]
+info: BG9/Main.lean:63:0: 'BG.no_code3' depends on axioms: [propext, Quot.sound]
+info: BG9/Main.lean:64:0: 'BG.queue_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [7/8] Built BG9 (319ms)
+Build completed successfully (8 jobs).

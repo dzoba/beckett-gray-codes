@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these codes, please cite them as below."
+title: "9-bit Beckett-Gray codes"
+authors:
+  - family-names: Dzoba
+    given-names: Chris
+date-released: 2026-11-04
+license: MIT
+url: "https://dzoba.com/blog/beckett-gray-9"
+repository-code: "https://github.com/dzoba/beckett-gray-codes"
+abstract: >-
+  Two cyclic 9-bit Beckett-Gray codes, the evolved search program that found them, two independent checkers, and a
+  Lean 4 kernel proof that the first is a Beckett-Gray code.
+keywords:
+  - Beckett-Gray code
+  - Gray code
+  - combinatorics
