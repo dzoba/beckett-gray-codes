@@ -1,5 +1,7 @@
 # 9-bit Beckett-Gray codes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23936430.svg)](https://doi.org/10.5281/zenodo.23936430)
+
 Two cyclic 9-bit Beckett-Gray codes, the search program that found them, two independent checkers and a Lean 4
 kernel proof for the first code. Write-up: https://dzoba.com/blog/beckett-gray-9
 
@@ -45,6 +47,13 @@ clang++ -O3 -march=native -std=c++17 -o bgevo74 bgevo74.cpp
 
 `--time` is in CPU seconds. The program's moves depend only on the seed, so a run reaches the same code if it gets
 enough CPU time; on 2026-11-02 this command reprinted code 2 after about 337 CPU seconds on a busy machine.
+
+## Citing
+
+Chris Dzoba, *9-bit Beckett-Gray codes*, v1.0, Zenodo, 2026. https://doi.org/10.5281/zenodo.23936431
+
+That DOI is for v1.0. The concept DOI https://doi.org/10.5281/zenodo.23936430 always points to the latest
+version. `CITATION.cff` has the same details.
 
 ## License
 
